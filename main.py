@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import csv
-import subprocess
+import os
 from generate_lean_statements import generate_statement
 
 CSV_PATH = "groupPresentations.csv"
@@ -8,14 +8,11 @@ CSV_PATH = "groupPresentations.csv"
 
 def run_check_abelian(generators, relations):
     """Run check_abelian.sage and return (order, verdict)."""
-    result = subprocess.run(
-        ["sage", "check_abelian.sage", generators, relations],
-        capture_output=True,
-        text=True,
-    )
+    command = f'sage check_abelian.sage "{generators}" "{relations}"'
+    output = os.popen(command).read()
 
     # last word is verdict.
-    for line in result.stdout.splitlines():
+    for line in output.splitlines():
         parts = line.split()
         if len(parts) == 3 and parts[2] in ("yes", "no", "?"):
             order, _, verdict = parts
