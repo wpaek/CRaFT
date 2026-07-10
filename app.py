@@ -11,7 +11,7 @@ app = FastAPI()
 
 
 def run_check_abelian(generators, relations):
-    sage = "/home/pk/miniforge3/envs/sage/bin/sage"
+    sage = os.environ.get("SAGE_PATH", "sage")
     command = f'{sage} check_abelian.sage "{generators}" "{relations}"'
     output = os.popen(command).read()
     for line in output.splitlines():

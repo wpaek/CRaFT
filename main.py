@@ -8,7 +8,7 @@ CSV_PATH = "groupPresentations.csv"
 
 def run_check_abelian(generators, relations):
     """Run check_abelian.sage and return (order, verdict)."""
-    sage = "/home/pk/miniforge3/envs/sage/bin/sage"
+    sage = os.environ.get("SAGE_PATH", "sage")
     command = f'{sage} check_abelian.sage "{generators}" "{relations}"'
     output = os.popen(command).read()
 
