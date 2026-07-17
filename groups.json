@@ -1,0 +1,1648 @@
+[
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-2*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*d^-3*a^-3*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*d^-2",
+        "c^-3*b^3*d^-1",
+        "b^-2*c^-3*a",
+        "c^-1*c^-3",
+        "d^2*a*a^2*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*a^-3*b^-1*a^-2",
+        "d^-1*d^3",
+        "b^-1*c^-2*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*b^-2*d*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-3*b^-3",
+        "d^-1*a^-2*c^-2",
+        "d*d^-2*c^-2*b^3",
+        "c^3*d^2*d^-1*b^-2",
+        "d^-3*a^-3*b^3*b^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*c",
+        "b^2*a^3*c^-3*c^2",
+        "c^-1*a^-1*b^-2",
+        "a^3*c^-1*c^-2",
+        "a^3*b^3*c^2*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-3*c^-1*b^-3*a^-1",
+        "a^-3*a^2*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-2*d^2",
+        "c^2*d^-2",
+        "b^3*c*c*d^-3",
+        "b^-3*c^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*a^3",
+        "a^-2*a^-3*c^-3*b^-1",
+        "d^-2*b^3*d^-2*d",
+        "a^-3*d^-1",
+        "d*a^3*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*a^2",
+        "a*a^-1*b^-2",
+        "b^2*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*b",
+        "d^-2*d^-3*b",
+        "d^-1*d^-1",
+        "d^-2*b^-1*b^-3",
+        "a^3*c^-3*a^2*d^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*a^2",
+        "b*a^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*a*b^-1*a^3",
+        "b^-2*b*a^3*b",
+        "a^-3*b^2*a^-3",
+        "a^2*b^-2*b^-3*a^-1",
+        "a*b^2*a^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*c^-3*a^3*b^-1",
+        "b^3*c^-2*c^2",
+        "c^-3*a^3*d^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^3*b^-2*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*a^3*b^2*a^-1",
+        "b*b^-3*c^-1*a^-1",
+        "b^3*a^-1",
+        "d^2*b^-2*b^-2*d^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-1*a^3*a",
+        "b^-2*a",
+        "b^-2*a^-3*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*c^2",
+        "c^2*b^-3*a^-1",
+        "c^-1*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c*a*b^-1",
+        "d^-3*b^-1",
+        "a^3*c^2*c^3",
+        "c^2*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-1*c^-2*a",
+        "b^3*c^-2*c^2*b",
+        "a^-1*b^-2*b^2*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*a^2*b^3",
+        "c^-3*b^2",
+        "c^2*b^-3*a^3*b^-2",
+        "a^-3*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*c^2",
+        "c^3*b",
+        "a^-2*c^3*a^-3",
+        "a^-2*c^2*b^-3",
+        "a^-3*b^-2*b^3*c^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^2*d^-2*d",
+        "b^3*c^2*d^3",
+        "c*a^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*c^-3*a^-2",
+        "b^3*a^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*b*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-3*c*b^-3*b^-1",
+        "b^2*c^3*c^2",
+        "b^-2*b",
+        "a*b^3*c"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*a*a^-3",
+        "d^-2*d^-2*a^-1*d^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*b*b^-3",
+        "a^3*a^-1*a^3",
+        "a^-3*a^-2",
+        "a^-2*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*c^-1*b^2*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-1*c^3*b*c^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*b^3*a^2*a^-1",
+        "b^3*b^-3*b^-3*b",
+        "b^-1*b^3",
+        "b^-2*b^2",
+        "b*b^3*b^-1*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*c^3",
+        "b^-3*b^-1*a",
+        "b^-1*b^-1",
+        "c^-1*c^-3*c^-2*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*d^3*d",
+        "a^-1*b",
+        "b^-1*c*c*c^-1",
+        "d^-1*c^-1*b^-3*b^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*a^3*b^-1*b^-3",
+        "b^-2*b^-2",
+        "a^3*a^-1*a^-3",
+        "b^3*a^3*b^-3*a^2",
+        "b*b^-1*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a*b^-3",
+        "c^3*a^-2*a^2*b^-3",
+        "a^2*b^2",
+        "c^-2*c*b*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-3*c^3*a^-2*c^-2",
+        "c^-3*a^-2*a^2",
+        "a^-3*b"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-3*b^-1*c^3",
+        "a^3*b^-1*b",
+        "b^3*b^-1",
+        "a^-3*b^-1",
+        "c*a*c^3*d^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^-3*a*c^2",
+        "a^-3*b^3*a^3",
+        "a^-2*d^2*d^-1",
+        "d^3*d^-3",
+        "c*c^-1*a^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*c*c^-3*b^-3",
+        "b^-1*a*c^-3",
+        "c*b^-3*a^2*b^2",
+        "c*a^-2*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*a^3*a^3",
+        "b^2*a^2",
+        "a^-2*a*a^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*b*b*a",
+        "a*a^2*a^-3*b",
+        "b^-3*b^3*b^2",
+        "b^-2*b^2*b^-1*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-2*b^2*d^-2",
+        "a^-1*d^3*d",
+        "b*a^-2*c^-3*d^-3",
+        "d^-3*b*b^-3*d^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*a^-1*c^2*b^-1",
+        "c*c^-3*c^-3*a^3",
+        "b^-2*c^-3*b^-3*c^3",
+        "b^-2*c^-1",
+        "a^-1*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*c*c^3",
+        "a^-2*a^2",
+        "c^3*a*c^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*b^3*a*b^3",
+        "a^-3*b^-1*b^3*b^3",
+        "b^-1*a*b^-3",
+        "b^2*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c*b^-3",
+        "c^3*a^2*c*b^-2",
+        "b^-2*c^-2*c^-1*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^3*a^-1*d^-3*c^3",
+        "a^-1*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*b^2",
+        "b^-2*b*b^3*b^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^3*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a*a^-1*c^-3",
+        "b^3*c^3*b^2",
+        "c^-1*a^3*a",
+        "c^2*b^2",
+        "c^-3*c"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^-3*b^-3*a^-1*d^-3",
+        "b^2*b",
+        "c^3*d^2*b"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^-1*a^3*c^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*c^-1",
+        "c^-1*a*b^-2*a",
+        "c^-2*c^3",
+        "a^-3*b^-2*a^2*a^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-2*c^-2*a^-1*b^-2",
+        "c^-2*a^3*a^-2*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-2*b^-3*a^3",
+        "a^3*a*b^-1",
+        "a*a^2*a^3*b",
+        "a^-3*b*b^3*a",
+        "b^-3*a^-1*a^-3*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c*c*d^-3*a^3",
+        "b*d^-2*d^-1*d",
+        "a^-1*d^-1*c^-1",
+        "d^-3*a^-3",
+        "d^-3*c^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^3*a*c^3*d^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*a^2*a^-2*b^-2",
+        "b^2*b^-3",
+        "a*a^2*b^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*b^-3*a^-2*b^-3",
+        "a^-3*a",
+        "b^-1*a^-1*b^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*a^-2*c^-3*c^-3",
+        "b^3*b*c",
+        "b^-2*c^-3*b",
+        "b^3*c^2",
+        "c^3*b^-3*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*b^3*b^-2",
+        "b^2*c^-2",
+        "c^3*b^-3*b^3*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*b^2",
+        "b^-1*a*a^-1",
+        "b^3*b^-3",
+        "a^-2*b^2*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-2*b^-2*a^2",
+        "a^2*a^-1*b^3*a^-2",
+        "a^-1*a^-2",
+        "a^3*a^-2*b*b^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-2*d^-3*d",
+        "c^-1*a^-1*a^-1*d",
+        "a^-1*c^-3",
+        "a^2*d*a*b^-1",
+        "d^2*b^-3*d^-3*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*a^3*b*a^-1",
+        "b*b^-1*a^3",
+        "b^-3*b^-3*b^-1*b^3",
+        "a^-1*a^2*a^-1*b^3",
+        "b^-2*a^-1*b^3*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^2*c^-3",
+        "c^-2*b^-1*d^-2",
+        "b^-2*a^-1",
+        "a^3*c^2",
+        "d^-2*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^-3*d^-1",
+        "b*c^3*d^-2*b^-1",
+        "b^-1*d*c",
+        "d^-2*b^2*b^-1*a^3",
+        "c^2*a^3*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*a*a^-2",
+        "b^-3*b^-3*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-1*a^-3*b^-3",
+        "c^-1*a^-2*a^-1*b^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-3*a^-1*a^-2",
+        "b^-3*b^-2*b^-3*a^-2",
+        "b^-3*a*a^3",
+        "a^3*a^-1*b^-3*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*c^-3",
+        "a*d^-3*d^-1*c^3",
+        "c^-3*c^-2",
+        "a^2*c^-2*a^-1*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*a^-2*a^3*b^-3",
+        "a^-3*a^-3*b^-1",
+        "b^2*b^-1*a^3*a^-1",
+        "a^3*b^-1*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*b^-2*b^3*b^-1",
+        "b^-3*c*a*c^-2",
+        "b^-1*a^-3*b^3*b^-1",
+        "c^3*b^-2*c"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-1*c",
+        "c^-3*a^3*c",
+        "c^3*c^-2*a^-2",
+        "c*a^-2*a^-2*c^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*a^3*b^-1*b",
+        "c^-2*c^-1",
+        "b^3*b^-2*a^-3",
+        "a*c*c^-3*b^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^3*d^-2",
+        "b^-3*d^-2",
+        "d^-3*c^3*c^3*a^2",
+        "c^-1*b^3*b^-1*b^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*b^2",
+        "b*a^2*a^-3*b"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d*a^-2*c^3*a",
+        "c^-2*b^-2*d^2",
+        "a^2*b^-1",
+        "b^-1*b^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^-2*c^-2",
+        "c^2*a^2*b^2*b^-2",
+        "c^2*a^-3*a^-3*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a*b^3*b",
+        "b^-1*b^-3",
+        "a^-2*b*b*a^-1",
+        "a^-1*b^3*b*a^-1",
+        "a^-1*a*a^-1*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-2*a*b*b",
+        "a*b^-2",
+        "b^-3*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c*b^2*a^-3*b^-2",
+        "c^-1*b^-1*a",
+        "c^2*a^-1",
+        "b^-3*b^2*b^2*b^2",
+        "c^-3*a^-3*b^-1*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c^2*b^2",
+        "a^-3*a^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-2*c^2*a^-1*c^-1",
+        "b^2*c^-1",
+        "b^2*c^2*b^3*c^-1",
+        "a^-1*b^3*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*d^-1*b^3*a^2",
+        "b^2*d^-2*b^-3",
+        "a^-2*a*c*b"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^3*a^3*b^2",
+        "c^3*d^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^2*b^2",
+        "c^3*c^3*c^-1",
+        "b^-2*a^-1*c^-1*a^-1"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "c*b*b^2*c^-1",
+        "a^2*c^2*b"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^-1*c^-3*b",
+        "b^3*b^-2*a^2*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "a^2*b^-2",
+        "b^3*b^-3",
+        "d^-1*d^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b*d",
+        "b^-1*c^-1*a^-3*b^2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "d^-2*a"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*a^-1*c^2*a^-1",
+        "b^3*c^2*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-3*c^-2*d^3",
+        "b^-3*c^-1*b^-2",
+        "d*c^-3*d^3*a^-2",
+        "d^-1*b^-3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*b^-1",
+        "c^2*a^-1*c^-1*c^-2",
+        "c^-3*b^-1",
+        "b^3*c^3"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^-1*c^-2*a^-2*b^-2"
+      ]
+    }
+  },
+  {
+    "generators": {
+      "names": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "relations": {
+      "words": [
+        "b^3*c*c^3",
+        "a^3*c^-3",
+        "b^2*c^-1*a^2*a^-3",
+        "c^-2*c^2*a^-2*b^2",
+        "a^3*a^3*c"
+      ]
+    }
+  }
+]
