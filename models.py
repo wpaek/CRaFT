@@ -6,7 +6,7 @@ class Generators(BaseModel):
 
 
 class Relations(BaseModel):
-    expressions: list[str]
+    words: list[str]
 
 
 class CheckAbelianThingies(BaseModel):
@@ -17,3 +17,13 @@ class CheckAbelianThingies(BaseModel):
 class CheckAbelianResponse(BaseModel):
     order: str
     abelian: str
+
+
+class GroupResult(BaseModel):
+    index: int
+    generators: Generators
+    relations: Relations
+    order: str | None
+    abelian: str | None
+    status: str  # "ok", "skipped", "timeout", or "error"
+    lean_code: str | None
