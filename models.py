@@ -1,12 +1,16 @@
 from pydantic import BaseModel
 
+# [("a", 2), ("b", -1)] is the relation a^2*b^-1
+word = list[tuple[str, int]]
+words = list[word]
+
 
 class Generators(BaseModel):
     names: list[str]
 
 
 class Relations(BaseModel):
-    words: list[str]
+    words: words
 
 
 class CheckAbelianThingies(BaseModel):
@@ -15,15 +19,15 @@ class CheckAbelianThingies(BaseModel):
 
 
 class CheckAbelianResponse(BaseModel):
-    order: str
-    abelian: str
+    order: int | None = None
+    abelian: bool | None = None
 
 
 class GroupResult(BaseModel):
     index: int
     generators: Generators
     relations: Relations
-    order: str | None
-    abelian: str | None
+    order: int | None = None
+    abelian: bool | None = None
     status: str  # "ok", "skipped", "timeout", or "error"
     lean_code: str | None

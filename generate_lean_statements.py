@@ -1,30 +1,19 @@
 #!/usr/bin/env python3
 
-from models import CheckAbelianThingies, CheckAbelianResponse, GroupResult
+from models import CheckAbelianThingies, CheckAbelianResponse, GroupResult, word
 
 
-def word_to_lean(word, gen_map):
+def word_to_lean(one_word: word, gen_map: dict[str, int]) -> str | None:
     n = len(gen_map)
     parts = []
-    for term in word.split('*'):
-        term = term.strip()
-        if not term:
+    for name, exponent in one_word:
+        if name not in gen_map:
             continue
-        if '^' in term:
-            gen, exp = term.split('^')
-        else:
-            gen, exp = term, ''
-        gen = gen.strip()
-        if gen not in gen_map:
-            continue
-        if parts:
-            parts.append(' * ')
-        idx = gen_map[gen]
-        if exp == '':
-            parts.append(f'FreeGroup.of ({idx} : Fin {n})')
-        else:
-            parts.append(f'(FreeGroup.of ({idx} : Fin {n}) ^ ({exp} : ℤ))')
-    return ''.join(parts) if parts else None
+        idx = gen_map[name]
+        parts.append(f'(FreeGroup.of ({idx} : Fin {n}) ^ ({exponent} : ℤ))')
+    if not parts:
+        return None
+    return ' * '.join(parts)
 
 
 def generate_statement(line_num, thingies: CheckAbelianThingies, response: CheckAbelianResponse):
@@ -33,8 +22,8 @@ def generate_statement(line_num, thingies: CheckAbelianThingies, response: Check
     gen_map = {name: idx for idx, name in enumerate(names)}
 
     lean_rels = []
-    for word in thingies.relations.words:
-        lean_r = word_to_lean(word, gen_map)
+    for one_word in thingies.relations.words:
+        lean_r = word_to_lean(one_word, gen_map)
         if lean_r:
             lean_rels.append(lean_r)
 
@@ -47,7 +36,7 @@ def generate_statement(line_num, thingies: CheckAbelianThingies, response: Check
         lines.append('  ∅')
     lines.append('')
 
-    if response.abelian == 'yes':
+    if response.abelian:
         lines.append(f'theorem group_{line_num}_abelian :')
         lines.append(f'  ∀ x y : PresentedGroup rels_{line_num}, x * y = y * x := by')
         lines.append('  sorry')
@@ -60,46 +49,28 @@ def generate_statement(line_num, thingies: CheckAbelianThingies, response: Check
 
 
 def build_result(index, thingies: CheckAbelianThingies, response: CheckAbelianResponse | None) -> GroupResult:
-    if response is None:
-        return GroupResult(
-            index=index,
-            generators=thingies.generators,
-            relations=thingies.relations,
-            order=None,
-            abelian=None,
-            status="error",
-            lean_code=None,
-        )
-
-    if response.abelian == '?':
-        return GroupResult(
-            index=index,
-            generators=thingies.generators,
-            relations=thingies.relations,
-            order=response.order,
-            abelian=response.abelian,
-            status="timeout",
-            lean_code=None,
-        )
-
-    if response.order == 'timeout' or 'Infinity' in response.order:
-        return GroupResult(
-            index=index,
-            generators=thingies.generators,
-            relations=thingies.relations,
-            order=response.order,
-            abelian=response.abelian,
-            status="skipped",
-            lean_code=None,
-        )
-
-    lean_code = generate_statement(index, thingies, response)
-    return GroupResult(
+    result = GroupResult(
         index=index,
         generators=thingies.generators,
         relations=thingies.relations,
-        order=response.order,
-        abelian=response.abelian,
-        status="ok",
-        lean_code=lean_code,
+        order=None,
+        abelian=None,
+        status="error",
+        lean_code=None,
     )
+
+    if response is None:
+        return result
+
+    result.order = response.order
+    result.abelian = response.abelian
+
+    if response.abelian is None:
+        result.status = "timeout"
+    elif response.order is None:
+        result.status = "skipped"
+    else:
+        result.status = "ok"
+        result.lean_code = generate_statement(index, thingies, response)
+
+    return result
