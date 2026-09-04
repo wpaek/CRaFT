@@ -27,7 +27,7 @@ FORM_HTML = """
       const out = document.getElementById('out');
       out.textContent = 'working...';
       const body = new FormData(this);
-      const res = await fetch('/generate', {method: 'POST', body});
+      const res = await fetch('/generate-file', {method: 'POST', body});
       const data = await res.json();
       out.textContent = JSON.stringify(data, null, 2);
     };
@@ -43,7 +43,14 @@ def home():
 
 
 @app.post("/generate")
-def generate(file: UploadFile = File(...)):
+def generate(thingies: CheckAbelianThingies):
+    response = run_check_abelian(thingies)
+    result = build_result(1, thingies, response)
+    return result.model_dump()
+
+
+@app.post("/generate-file")
+def generate_file(file: UploadFile = File(...)):
     raw = file.file.read().decode("utf-8")
     items = json.loads(raw)
 

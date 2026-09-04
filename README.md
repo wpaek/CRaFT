@@ -15,7 +15,7 @@ A JSON array where each item describes one group:
 ```json
 {
   "generators": {"names": ["a", "b"]},
-  "relations": {"words": ["a^2", "b^2", "a*b*a^-1*b^-1"]}
+  "relations": {"words": [[["a", 2]], [["b", 2]], [["a", 1], ["b", 1], ["a", -1], ["b", -1]]]}
 }
 ```
 
@@ -27,6 +27,18 @@ python3 main.py        # or: ./run_pipeline.sh
 
 # Check a single group directly:
 sage check_abelian.sage "a,b,c,d" "c^-2*b^-2"
+
+# Start the localhost API:
+conda activate sage
+python -m uvicorn app:app --host 127.0.0.1 --port 8000
+
+# Send one group as JSON and receive one result:
+curl -X POST http://127.0.0.1:8000/generate \
+  -H 'Content-Type: application/json' \
+  -d '{"generators":{"names":["a"]},"relations":{"words":[[["a",2]]]}}'
+
+# Upload a JSON array and receive a list of results:
+curl -F 'file=@groups.json;type=application/json' http://127.0.0.1:8000/generate-file
 ```
 
 ### Output (JSON, printed to terminal)
@@ -37,9 +49,9 @@ One JSON object per group, in a JSON array:
 {
   "index": 1,
   "generators": {"names": ["a", "b"]},
-  "relations": {"words": ["a^2", "b^2", "a*b*a^-1*b^-1"]},
-  "order": "4",
-  "abelian": "yes",
+  "relations": {"words": [[["a", 2]], [["b", 2]], [["a", 1], ["b", 1], ["a", -1], ["b", -1]]]},
+  "order": 4,
+  "abelian": true,
   "status": "ok",
   "lean_code": "def rels_1 : Set (FreeGroup (Fin 2)) := ..."
 }
